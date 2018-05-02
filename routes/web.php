@@ -22,3 +22,6 @@ Route::resource('slots', 'SlotController');
 Route::resource('products', 'ProductController');
 
 Route::get('info', 'HomeController@info');
+
+
+Route::resource('categories','CategoryController');
