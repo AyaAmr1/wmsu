@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Section;
-use App\Models\Slot;
+use App\Category;
 use Illuminate\Http\Request;
 
-class SlotController extends Controller
+class CategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +14,7 @@ class SlotController extends Controller
      */
     public function index()
     {
-        $slots  = Slot::all();
-
-        return view('slots.index',compact('slots'));
+        //
     }
 
     /**
@@ -27,8 +24,7 @@ class SlotController extends Controller
      */
     public function create()
     {
-        $sections = Section::all();
-        return view('slots.create',compact('sections'));
+        //
     }
 
     /**
@@ -39,17 +35,16 @@ class SlotController extends Controller
      */
     public function store(Request $request)
     {
-        Slot::create($request->all());
-        return redirect('/slots');
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Slot  $slot
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(Slot $slot)
+    public function show(Category $category)
     {
         //
     }
@@ -57,22 +52,22 @@ class SlotController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Slot  $slot
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function edit(Slot $slot)
+    public function edit(Category $category)
     {
-        return view('slots.update');
+        //
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Slot  $slot
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Slot $slot)
+    public function update(Request $request, Category $category)
     {
         //
     }
@@ -80,12 +75,11 @@ class SlotController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Slot  $slot
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Slot $slot)
+    public function destroy(Category $category)
     {
-        $slot->delete();
-        return back();
+        //
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Product;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -20,6 +20,7 @@ class ProductController extends Controller
 
     /**
      * Show the form for creating a new resource.
+     *
      *
      * @return \Illuminate\Http\Response
      */

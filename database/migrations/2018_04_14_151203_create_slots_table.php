@@ -21,6 +21,7 @@ class CreateSlotsTable extends Migration
             $table->foreign('section_id')
                 ->references('id')
                 ->on('sections')
+
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
         });
