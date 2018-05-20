@@ -42,10 +42,6 @@
 <footer class="row">
     <div class="container-fluid bg-dark">
 
-        <div class="copyright text-center p-2 text-white">
-            <span>Copyright &copy; {{ date('Y') }} <a href="http://avored.website" title="AvoRed Company"
-                                                      target="_blank">AvoRed</a>. All rights reserved.</span>
 
-        </div>
     </div>
 </footer>
