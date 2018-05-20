@@ -15,7 +15,6 @@ yarn-error.log
 # AvoRed Specific
 storage/framework/bootstrap/cache/services.php
 /packages
-/public/uploads
 /modules/*
 /modules/ecommerce
 /themes/*
