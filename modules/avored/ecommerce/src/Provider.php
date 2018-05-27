@@ -2,36 +2,43 @@
 
 namespace AvoRed\Ecommerce;
 
+use Illuminate\Support\ServiceProvider;
+
 use AvoRed\Ecommerce\Models\Database\Country;
 use AvoRed\Ecommerce\Models\Database\Page;
 use Carbon\Carbon;
 use Laravel\Passport\Passport;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\View;
-use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\ServiceProvider;
-use AvoRed\Framework\AdminMenu\AdminMenu;
 use Laravel\Passport\Console\KeysCommand;
 use AvoRed\Ecommerce\Shipping\FreeShipping;
 use Laravel\Passport\Console\ClientCommand;
 use Laravel\Passport\Console\InstallCommand;
+
 use AvoRed\Ecommerce\Http\Middleware\AdminAuth;
 use AvoRed\Ecommerce\Http\Middleware\Permission;
 use AvoRed\Ecommerce\Http\Middleware\AdminApiAuth;
+use AvoRed\Ecommerce\Http\Middleware\RedirectIfAdminAuth;
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Blade;
 use AvoRed\Framework\Widget\Facade as WidgetFacade;
 use AvoRed\Framework\Payment\Facade as PaymentFacade;
 use AvoRed\Framework\Shipping\Facade as ShippingFacade;
-use AvoRed\Ecommerce\Http\Middleware\RedirectIfAdminAuth;
-use AvoRed\Ecommerce\Http\ViewComposers\AdminNavComposer;
 use AvoRed\Framework\AdminMenu\Facade as AdminMenuFacade;
 use AvoRed\Framework\Breadcrumb\Facade as BreadcrumbFacade;
 use AvoRed\Framework\Permission\Facade as PermissionFacade;
+use AvoRed\Framework\AdminConfiguration\Facade as AdminConfigurationFacade;
+
 use AvoRed\Ecommerce\Payment\Stripe\Payment as StripePayment;
-use AvoRed\Ecommerce\Http\ViewComposers\ProductFieldsComposer;
-use AvoRed\Ecommerce\Http\ViewComposers\CategoryFieldsComposer;
+use AvoRed\Framework\AdminMenu\AdminMenu;
 use AvoRed\Ecommerce\Widget\TotalUser\Widget as TotalUserWidget;
 use AvoRed\Ecommerce\Widget\TotalOrder\Widget as TotalOrderWidget;
-use AvoRed\Framework\AdminConfiguration\Facade as AdminConfigurationFacade;
+
+
+use AvoRed\Ecommerce\Http\ViewComposers\ProductFieldsComposer;
+use AvoRed\Ecommerce\Http\ViewComposers\CategoryFieldsComposer;
+use AvoRed\Ecommerce\Http\ViewComposers\AdminNavComposer;
+use AvoRed\Ecommerce\Http\ViewComposers\AdminUserFieldsComposer;
 
 class Provider extends ServiceProvider
 {
@@ -105,10 +112,10 @@ class Provider extends ServiceProvider
     {
         View::composer('avored-ecommerce::layouts.left-nav', AdminNavComposer::class);
         View::composer(['avored-ecommerce::category._fields'], CategoryFieldsComposer::class);
+        View::composer(['avored-ecommerce::admin-user._fields'], AdminUserFieldsComposer::class);
         View::composer(['avored-ecommerce::product.create',
                         'avored-ecommerce::product.edit',
                         ], ProductFieldsComposer::class);
-
     }
 
     /*
@@ -248,7 +255,6 @@ class Provider extends ServiceProvider
      */
     protected function registerAdminConfiguration()
     {
-
         $configurationGroup = AdminConfigurationFacade::add('general')
             ->label('General');
 
@@ -271,9 +277,9 @@ class Provider extends ServiceProvider
         $configurationGroup->addConfiguration('general_term_condition_page')
             ->label('Term & Condition Page')
             ->type('select')
-            ->name('general_administrator_email')
-            ->options(function (){
-                $options = Page::all()->pluck('name','id');
+            ->name('general_term_condition_page')
+            ->options(function () {
+                $options = Page::all()->pluck('name', 'id');
                 return $options;
             });
 
@@ -281,8 +287,8 @@ class Provider extends ServiceProvider
             ->label('Home Page')
             ->type('select')
             ->name('general_home_page')
-            ->options(function (){
-                $options = Page::all()->pluck('name','id');
+            ->options(function () {
+                $options = Page::all()->pluck('name', 'id');
                 return $options;
             });
 
@@ -293,8 +299,8 @@ class Provider extends ServiceProvider
             ->label('User Default Country')
             ->type('select')
             ->name('user_default_country')
-            ->options(function (){
-                $options = Country::all()->pluck('name','id');
+            ->options(function () {
+                $options = Country::all()->pluck('name', 'id');
                 return $options;
             });
 
@@ -302,7 +308,7 @@ class Provider extends ServiceProvider
             ->label('User Activation Required')
             ->type('select')
             ->name('user_activation_required')
-            ->options(function (){
+            ->options(function () {
                 $options = [0 => 'No' , 1 => 'Yes'];
                 return $options;
             });
@@ -315,7 +321,7 @@ class Provider extends ServiceProvider
             ->label('Is Free Shipping Enabled')
             ->type('select')
             ->name('shipping_free_shipping_enabled')
-            ->options(function (){
+            ->options(function () {
                 $options = [1 => 'Yes' , 0 => 'No'];
                 return $options;
             });
@@ -327,7 +333,7 @@ class Provider extends ServiceProvider
             ->label('Payment Stripe Enabled')
             ->type('select')
             ->name('payment_stripe_enabled')
-            ->options(function (){
+            ->options(function () {
                 $options = [0 => 'No' , 1 => 'Yes'];
                 return $options;
             });
@@ -369,14 +375,13 @@ class Provider extends ServiceProvider
             ->type('select')
             ->name('tax_default_country')
             ->options(function () {
-                $options = $options = Country::all()->pluck('name','id');
+                $options = $options = Country::all()->pluck('name', 'id');
                 return $options;
             });
-
     }
 
 
-        /**
+    /**
      * Register the Menus.
      *
      * @return void
@@ -764,19 +769,17 @@ class Provider extends ServiceProvider
         ], 'config');
         $this->publishes([
             __DIR__.'/../config/avored-auth.php' => config_path('avored-auth.php'),
-        ],'config');
+        ], 'config');
 
         $this->publishes([
             __DIR__ . '/../resources/lang' => base_path('themes/avored/default/lang/vendor')
-        ],'avored-module-lang');
+        ], 'avored-module-lang');
 
         $this->publishes([
             __DIR__ . '/../resources/views' => base_path('themes/avored/default/views/vendor')
-        ],'avored-module-views');
+        ], 'avored-module-views');
         $this->publishes([
             __DIR__ . '/../database/migrations' => database_path('avored-migrations'),
         ]);
     }
-
-
 }
