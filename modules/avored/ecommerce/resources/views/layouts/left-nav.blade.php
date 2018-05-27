@@ -2,7 +2,7 @@
 
     <i class="fas fa-bars nav-icon"></i>
 
-    <span class="logo">AvoRed Admin</span>
+    <span class="logo"> Admin Panel</span>
 
 
 </div>

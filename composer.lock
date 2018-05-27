@@ -4,25 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d6d162d879ea407e2e60fca67e3028c",
+    "content-hash": "700adae5d433550703900c6602f85c90",
     "packages": [
         {
             "name": "avored/banner",
-            "version": "dev-master",
+            "version": "1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/banner.git",
-                "reference": "961242e0b25fd7cbbb7fe910ea0a1436db6a94b2"
+                "reference": "ec6ddc7aca49e4885ce6abbdb6635be153f41253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/banner/zipball/961242e0b25fd7cbbb7fe910ea0a1436db6a94b2",
-                "reference": "961242e0b25fd7cbbb7fe910ea0a1436db6a94b2",
+                "url": "https://api.github.com/repos/avored/banner/zipball/ec6ddc7aca49e4885ce6abbdb6635be153f41253",
+                "reference": "ec6ddc7aca49e4885ce6abbdb6635be153f41253",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -59,25 +58,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-13T22:29:51+00:00"
+            "time": "2018-05-25T03:53:06+00:00"
         },
         {
             "name": "avored/brand",
-            "version": "dev-master",
+            "version": "1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/brand.git",
-                "reference": "a8ab4514aa2f6b95f62c45f0dc0d494f811352be"
+                "reference": "ec65982a32b99d10b01cf510c2b04db7632c1ca5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/brand/zipball/a8ab4514aa2f6b95f62c45f0dc0d494f811352be",
-                "reference": "a8ab4514aa2f6b95f62c45f0dc0d494f811352be",
+                "url": "https://api.github.com/repos/avored/brand/zipball/ec65982a32b99d10b01cf510c2b04db7632c1ca5",
+                "reference": "ec65982a32b99d10b01cf510c2b04db7632c1ca5",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -114,25 +112,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-13T22:59:48+00:00"
+            "time": "2018-05-25T03:52:52+00:00"
         },
         {
             "name": "avored/cash-on-delivery",
-            "version": "dev-master",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/cash-on-delivery.git",
-                "reference": "10085c3c9dc6af60cd27835ecad5a98b9918945f"
+                "reference": "7e2d11b6fe269a69f6c18d792d2f654f959c90b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/cash-on-delivery/zipball/10085c3c9dc6af60cd27835ecad5a98b9918945f",
-                "reference": "10085c3c9dc6af60cd27835ecad5a98b9918945f",
+                "url": "https://api.github.com/repos/avored/cash-on-delivery/zipball/7e2d11b6fe269a69f6c18d792d2f654f959c90b1",
+                "reference": "7e2d11b6fe269a69f6c18d792d2f654f959c90b1",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -166,25 +163,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-13T22:27:24+00:00"
+            "time": "2018-05-25T03:52:30+00:00"
         },
         {
             "name": "avored/contact",
-            "version": "dev-master",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/contact.git",
-                "reference": "005926def5692a79baa907a562f1a3280791b7a6"
+                "reference": "a22348fed2d06779d3118b959c5b926cbd444da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/contact/zipball/005926def5692a79baa907a562f1a3280791b7a6",
-                "reference": "005926def5692a79baa907a562f1a3280791b7a6",
+                "url": "https://api.github.com/repos/avored/contact/zipball/a22348fed2d06779d3118b959c5b926cbd444da5",
+                "reference": "a22348fed2d06779d3118b959c5b926cbd444da5",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.0.0"
             },
@@ -218,25 +214,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-14T21:33:37+00:00"
+            "time": "2018-05-25T03:55:25+00:00"
         },
         {
             "name": "avored/dummy-data",
-            "version": "dev-master",
+            "version": "1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/dummy-data.git",
-                "reference": "0554b7f36c7df31ed217574f577282b8309bdb00"
+                "reference": "b4d49eb8ecbcfa163bf9e3edc3ae7adeedd2251d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/dummy-data/zipball/0554b7f36c7df31ed217574f577282b8309bdb00",
-                "reference": "0554b7f36c7df31ed217574f577282b8309bdb00",
+                "url": "https://api.github.com/repos/avored/dummy-data/zipball/b4d49eb8ecbcfa163bf9e3edc3ae7adeedd2251d",
+                "reference": "b4d49eb8ecbcfa163bf9e3edc3ae7adeedd2251d",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -273,23 +268,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-14T21:33:50+00:00"
+            "time": "2018-05-25T03:58:42+00:00"
         },
         {
             "name": "avored/ecommerce",
-            "version": "dev-master",
+            "version": "1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/ecommerce.git",
-                "reference": "781a050266c2c7599fa17ddc80d11354a7fa7506"
+                "reference": "46bf5ace4aa7c25825eee78e914b687911c48659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/ecommerce/zipball/781a050266c2c7599fa17ddc80d11354a7fa7506",
-                "reference": "781a050266c2c7599fa17ddc80d11354a7fa7506",
+                "url": "https://api.github.com/repos/avored/ecommerce/zipball/46bf5ace4aa7c25825eee78e914b687911c48659",
+                "reference": "46bf5ace4aa7c25825eee78e914b687911c48659",
                 "shasum": ""
             },
             "require": {
+                "avored/framework": "~1.4",
                 "barryvdh/laravel-dompdf": "0.8.*",
                 "laravel/passport": "5.0.*",
                 "php": ">=7.1.3",
@@ -322,6 +318,7 @@
                 }
             ],
             "description": "AvoRed Laravel E commerce",
+            "homepage": "https://www.avored.com",
             "keywords": [
                 "cart",
                 "e commerce",
@@ -333,25 +330,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-19T00:47:23+00:00"
+            "time": "2018-05-24T03:34:56+00:00"
         },
         {
             "name": "avored/featured",
-            "version": "dev-master",
+            "version": "1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/feature.git",
-                "reference": "0a74bb07f1d5d0d3eefe334d308d9d9cb8a9f8ff"
+                "reference": "4130e7b30001a6464e3f2ce38dd9f3f99e1df45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/feature/zipball/0a74bb07f1d5d0d3eefe334d308d9d9cb8a9f8ff",
-                "reference": "0a74bb07f1d5d0d3eefe334d308d9d9cb8a9f8ff",
+                "url": "https://api.github.com/repos/avored/feature/zipball/4130e7b30001a6464e3f2ce38dd9f3f99e1df45b",
+                "reference": "4130e7b30001a6464e3f2ce38dd9f3f99e1df45b",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -388,25 +384,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-14T21:33:15+00:00"
+            "time": "2018-05-25T03:51:37+00:00"
         },
         {
             "name": "avored/fixed-rate",
-            "version": "dev-master",
+            "version": "1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/fixed-rate.git",
-                "reference": "7f9162458c97fa02018ade09725b84530fb52545"
+                "reference": "c06a2bcf212612c962f92dd3bc2b51df2b742cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/fixed-rate/zipball/7f9162458c97fa02018ade09725b84530fb52545",
-                "reference": "7f9162458c97fa02018ade09725b84530fb52545",
+                "url": "https://api.github.com/repos/avored/fixed-rate/zipball/c06a2bcf212612c962f92dd3bc2b51df2b742cb4",
+                "reference": "c06a2bcf212612c962f92dd3bc2b51df2b742cb4",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -427,6 +422,7 @@
                 }
             ],
             "description": "AvoRed Laravel E commerce - Fixed Rate Shippung Module",
+            "homepage": "https://www.avored.com",
             "keywords": [
                 "banner",
                 "cart",
@@ -439,20 +435,20 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-15T05:39:29+00:00"
+            "time": "2018-05-25T03:51:22+00:00"
         },
         {
             "name": "avored/framework",
-            "version": "dev-master",
+            "version": "1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/framework.git",
-                "reference": "a408095448570bd45f47b76072cdb63841080728"
+                "reference": "4e0928996aa82eae8bb03fcccd1bdd4d560051af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/framework/zipball/a408095448570bd45f47b76072cdb63841080728",
-                "reference": "a408095448570bd45f47b76072cdb63841080728",
+                "url": "https://api.github.com/repos/avored/framework/zipball/4e0928996aa82eae8bb03fcccd1bdd4d560051af",
+                "reference": "4e0928996aa82eae8bb03fcccd1bdd4d560051af",
                 "shasum": ""
             },
             "require": {
@@ -515,7 +511,7 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-20T02:20:35+00:00"
+            "time": "2018-05-24T01:19:59+00:00"
         },
         {
             "name": "avored/module-installer",
@@ -570,21 +566,20 @@
         },
         {
             "name": "avored/pickup",
-            "version": "dev-master",
+            "version": "1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/pickup.git",
-                "reference": "42ed4ff8d843fd5b019d6b026cfec52a949092e3"
+                "reference": "9e1efa835a824f9301018d806083dcdd80e43ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/pickup/zipball/42ed4ff8d843fd5b019d6b026cfec52a949092e3",
-                "reference": "42ed4ff8d843fd5b019d6b026cfec52a949092e3",
+                "url": "https://api.github.com/repos/avored/pickup/zipball/9e1efa835a824f9301018d806083dcdd80e43ce5",
+                "reference": "9e1efa835a824f9301018d806083dcdd80e43ce5",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -618,25 +613,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-15T01:06:56+00:00"
+            "time": "2018-05-25T03:51:07+00:00"
         },
         {
             "name": "avored/related",
-            "version": "dev-master",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/related.git",
-                "reference": "4da4894859aec0f38b29f0afb9056b9a100ca849"
+                "reference": "9a4b9cca63991057e927268af3139a88c401537a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/related/zipball/4da4894859aec0f38b29f0afb9056b9a100ca849",
-                "reference": "4da4894859aec0f38b29f0afb9056b9a100ca849",
+                "url": "https://api.github.com/repos/avored/related/zipball/9a4b9cca63991057e927268af3139a88c401537a",
+                "reference": "9a4b9cca63991057e927268af3139a88c401537a",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -673,25 +667,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-14T21:34:12+00:00"
+            "time": "2018-05-25T04:00:23+00:00"
         },
         {
             "name": "avored/review",
-            "version": "dev-master",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/review.git",
-                "reference": "77736e91918815006d42f2940a36567c4b4cee66"
+                "reference": "5fce2e3bb5bf34b45f45e22c31f66da7ad4e5a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/review/zipball/77736e91918815006d42f2940a36567c4b4cee66",
-                "reference": "77736e91918815006d42f2940a36567c4b4cee66",
+                "url": "https://api.github.com/repos/avored/review/zipball/5fce2e3bb5bf34b45f45e22c31f66da7ad4e5a8d",
+                "reference": "5fce2e3bb5bf34b45f45e22c31f66da7ad4e5a8d",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -728,25 +721,24 @@
                 "shopping cart",
                 "shopping-cart"
             ],
-            "time": "2018-05-16T23:09:46+00:00"
+            "time": "2018-05-25T04:00:42+00:00"
         },
         {
             "name": "avored/subscribe",
-            "version": "dev-master",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avored/subscribe.git",
-                "reference": "a0a43210271e81c89263499c30647296f7137044"
+                "reference": "6c51aca31a24ea0d855c47be66f47a8613ce9555"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avored/subscribe/zipball/a0a43210271e81c89263499c30647296f7137044",
-                "reference": "a0a43210271e81c89263499c30647296f7137044",
+                "url": "https://api.github.com/repos/avored/subscribe/zipball/6c51aca31a24ea0d855c47be66f47a8613ce9555",
+                "reference": "6c51aca31a24ea0d855c47be66f47a8613ce9555",
                 "shasum": ""
             },
             "require": {
-                "avored/ecommerce": "dev-master",
-                "avored/framework": "dev-master",
+                "avored/ecommerce": "1.*",
                 "avored/module-installer": "1.*",
                 "php": ">=7.1.3"
             },
@@ -782,7 +774,7 @@
                 "shopping-cart",
                 "subscribe"
             ],
-            "time": "2018-05-16T23:08:45+00:00"
+            "time": "2018-05-25T03:57:10+00:00"
         },
         {
             "name": "barryvdh/laravel-dompdf",
@@ -1800,16 +1792,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.22",
+            "version": "v5.6.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "637fd797a6dde8d24a9f07da77e375ec251c5d24"
+                "reference": "f547f0a71a12763d1adb8493237d541c9e3a5d10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/637fd797a6dde8d24a9f07da77e375ec251c5d24",
-                "reference": "637fd797a6dde8d24a9f07da77e375ec251c5d24",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f547f0a71a12763d1adb8493237d541c9e3a5d10",
+                "reference": "f547f0a71a12763d1adb8493237d541c9e3a5d10",
                 "shasum": ""
             },
             "require": {
@@ -1935,7 +1927,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-05-15T13:34:20+00:00"
+            "time": "2018-05-22T14:55:57+00:00"
         },
         {
             "name": "laravel/passport",
@@ -4470,7 +4462,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
@@ -4527,16 +4519,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "3e820bc2c520a87ca209ad8fa961c97f42e0b4ae"
+                "reference": "058f120b8e06ebcd7b211de5ffae07b2db00fbdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/3e820bc2c520a87ca209ad8fa961c97f42e0b4ae",
-                "reference": "3e820bc2c520a87ca209ad8fa961c97f42e0b4ae",
+                "url": "https://api.github.com/repos/symfony/console/zipball/058f120b8e06ebcd7b211de5ffae07b2db00fbdd",
+                "reference": "058f120b8e06ebcd7b211de5ffae07b2db00fbdd",
                 "shasum": ""
             },
             "require": {
@@ -4591,20 +4583,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30T01:23:47+00:00"
+            "time": "2018-05-16T09:05:32+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "03f965583147957f1ecbad7ea1c9d6fd5e525ec2"
+                "reference": "0383a1a4eb1ffcac28719975d3e01bfa14be8ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/03f965583147957f1ecbad7ea1c9d6fd5e525ec2",
-                "reference": "03f965583147957f1ecbad7ea1c9d6fd5e525ec2",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/0383a1a4eb1ffcac28719975d3e01bfa14be8ab3",
+                "reference": "0383a1a4eb1ffcac28719975d3e01bfa14be8ab3",
                 "shasum": ""
             },
             "require": {
@@ -4644,20 +4636,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-19T22:35:49+00:00"
+            "time": "2018-05-11T15:58:37+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "e1d57cdb357e5b10f5fdacbb0b86689c0a435e6e"
+                "reference": "4e7c98de67cc4171d4c986554e09a511da40f3d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/e1d57cdb357e5b10f5fdacbb0b86689c0a435e6e",
-                "reference": "e1d57cdb357e5b10f5fdacbb0b86689c0a435e6e",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/4e7c98de67cc4171d4c986554e09a511da40f3d8",
+                "reference": "4e7c98de67cc4171d4c986554e09a511da40f3d8",
                 "shasum": ""
             },
             "require": {
@@ -4700,24 +4692,25 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30T16:59:37+00:00"
+            "time": "2018-05-16T09:05:32+00:00"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "d6c04c7532535b5e0b63db45b543cd60818e0fbc"
+                "reference": "cf13fe774cabf4d32e8e234ec6efe7821e8b6ec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/d6c04c7532535b5e0b63db45b543cd60818e0fbc",
-                "reference": "d6c04c7532535b5e0b63db45b543cd60818e0fbc",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/cf13fe774cabf4d32e8e234ec6efe7821e8b6ec1",
+                "reference": "cf13fe774cabf4d32e8e234ec6efe7821e8b6ec1",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -4756,11 +4749,11 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-19T22:35:49+00:00"
+            "time": "2018-05-01T23:00:51+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -4823,16 +4816,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "ca27c02b7a3fef4828c998c2ff9ba7aae1641c49"
+                "reference": "8c633f5a815903a1fe6e3fc135f207267a8a79af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/ca27c02b7a3fef4828c998c2ff9ba7aae1641c49",
-                "reference": "ca27c02b7a3fef4828c998c2ff9ba7aae1641c49",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/8c633f5a815903a1fe6e3fc135f207267a8a79af",
+                "reference": "8c633f5a815903a1fe6e3fc135f207267a8a79af",
                 "shasum": ""
             },
             "require": {
@@ -4868,20 +4861,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-04T05:10:37+00:00"
+            "time": "2018-05-16T09:05:32+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "014487772c22d893168e5d628a13e882009fea29"
+                "reference": "277b757a2d3960170d99d372e171a8a18916467a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/014487772c22d893168e5d628a13e882009fea29",
-                "reference": "014487772c22d893168e5d628a13e882009fea29",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/277b757a2d3960170d99d372e171a8a18916467a",
+                "reference": "277b757a2d3960170d99d372e171a8a18916467a",
                 "shasum": ""
             },
             "require": {
@@ -4921,20 +4914,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30T01:05:59+00:00"
+            "time": "2018-05-25T11:08:56+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "8333264b6de323ea27a08627d5396aa564fb9c25"
+                "reference": "450a1bda817f2dce25a9e13f0f011336743f2a48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/8333264b6de323ea27a08627d5396aa564fb9c25",
-                "reference": "8333264b6de323ea27a08627d5396aa564fb9c25",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/450a1bda817f2dce25a9e13f0f011336743f2a48",
+                "reference": "450a1bda817f2dce25a9e13f0f011336743f2a48",
                 "shasum": ""
             },
             "require": {
@@ -4942,7 +4935,8 @@
                 "psr/log": "~1.0",
                 "symfony/debug": "~3.4|~4.0",
                 "symfony/event-dispatcher": "~3.4|~4.0",
-                "symfony/http-foundation": "~3.4.4|~4.0.4"
+                "symfony/http-foundation": "~3.4.4|~4.0.4",
+                "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
                 "symfony/config": "<3.4",
@@ -5007,7 +5001,62 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30T19:45:57+00:00"
+            "time": "2018-05-25T13:32:52+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2018-04-30T19:57:29+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -5125,16 +5174,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "d7dc1ee5dfe9f732cb1bba7310f5b99f2b7a6d25"
+                "reference": "3621fa74d0576a6f89d63bc44fabd376711bd0b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/d7dc1ee5dfe9f732cb1bba7310f5b99f2b7a6d25",
-                "reference": "d7dc1ee5dfe9f732cb1bba7310f5b99f2b7a6d25",
+                "url": "https://api.github.com/repos/symfony/process/zipball/3621fa74d0576a6f89d63bc44fabd376711bd0b0",
+                "reference": "3621fa74d0576a6f89d63bc44fabd376711bd0b0",
                 "shasum": ""
             },
             "require": {
@@ -5170,7 +5219,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03T05:24:00+00:00"
+            "time": "2018-05-16T09:05:32+00:00"
         },
         {
             "name": "symfony/psr-http-message-bridge",
@@ -5234,16 +5283,16 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "1dfbfdf060bbc80da8dedc062050052e694cd027"
+                "reference": "e8833b64b139926cbe1610d53722185e55c18e44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/1dfbfdf060bbc80da8dedc062050052e694cd027",
-                "reference": "1dfbfdf060bbc80da8dedc062050052e694cd027",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/e8833b64b139926cbe1610d53722185e55c18e44",
+                "reference": "e8833b64b139926cbe1610d53722185e55c18e44",
                 "shasum": ""
             },
             "require": {
@@ -5308,20 +5357,20 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-04-20T06:20:23+00:00"
+            "time": "2018-05-16T14:21:07+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "ad3abf08eb3450491d8d76513100ef58194cd13e"
+                "reference": "e1f5863d0a9e79cfec7f031421ced3fe1d403e66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/ad3abf08eb3450491d8d76513100ef58194cd13e",
-                "reference": "ad3abf08eb3450491d8d76513100ef58194cd13e",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/e1f5863d0a9e79cfec7f031421ced3fe1d403e66",
+                "reference": "e1f5863d0a9e79cfec7f031421ced3fe1d403e66",
                 "shasum": ""
             },
             "require": {
@@ -5376,11 +5425,11 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-30T01:23:47+00:00"
+            "time": "2018-05-21T10:09:47+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
@@ -5449,20 +5498,21 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.0.9",
+            "version": "v4.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "275ad099e4cbe612a2acbca14a16dd1c5311324d"
+                "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/275ad099e4cbe612a2acbca14a16dd1c5311324d",
-                "reference": "275ad099e4cbe612a2acbca14a16dd1c5311324d",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/048b1be5fb96e73ff1d065f5e7e23f84415ac907",
+                "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
                 "symfony/console": "<3.4"
@@ -5503,7 +5553,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-08T08:49:08+00:00"
+            "time": "2018-05-07T07:12:24+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -6028,21 +6078,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "avored/banner": 20,
-        "avored/brand": 20,
-        "avored/cash-on-delivery": 20,
-        "avored/contact": 20,
-        "avored/dummy-data": 20,
-        "avored/ecommerce": 20,
-        "avored/featured": 20,
-        "avored/fixed-rate": 20,
-        "avored/framework": 20,
-        "avored/pickup": 20,
-        "avored/related": 20,
-        "avored/review": 20,
-        "avored/subscribe": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'AvoRed Ecommerce') }}</title>
+    <title>{{ config('app.name', 'WMSU ') }}</title>
 
     <link href="{{ asset('vendor/avored-admin/css/app.css') }}" rel="stylesheet">
 
@@ -61,6 +61,15 @@
 
 
 <script src="{{ asset('vendor/avored-admin/js/app.js') }}"></script>
+<script>
+    $(function () {
+       $("a:contains(' Attribute')").parent('li').hide();
+       $("a:contains(' Banner')").parent('li').hide();
+       $("a:contains(' Configuration')").parent('li').hide();
+       $("a:contains(' Themes')").parent('li').hide();
+       $("a:contains(' Subscribe')").parent('li').hide();
+    })
+</script>
 @stack('scripts')
 
 </body>

@@ -14,8 +14,8 @@
         <form id="product-save-form"
               action="{{route('admin.product.update', $model->id)}}"
               enctype="multipart/form-data" method="post">
-            {{ csrf_field() }}
-            <input type="hidden" name="_method" value="put">
+            @csrf
+            @method('put')
 
         <div class="row" id="product-save-accordion" data-children=".product-card">
             <div class="col-12 mb-2 mt-2">
@@ -44,15 +44,15 @@
                 </div>
 
 
-                <div class="card product-card mb-2 mt-2">
-                    <a data-toggle="collapse" data-parent="#product-save-accordion"
-                       class="float-right" href="#seo">
-                        <div class="card-header">SEO</div>
-                    </a>
-                    <div class="card-body collapse" id="seo">
-                        @include('avored-ecommerce::product.card.seo')
-                    </div>
-                </div>
+                {{--<div class="card product-card mb-2 mt-2">--}}
+                    {{--<a data-toggle="collapse" data-parent="#product-save-accordion"--}}
+                       {{--class="float-right" href="#seo">--}}
+                        {{--<div class="card-header">SEO</div>--}}
+                    {{--</a>--}}
+                    {{--<div class="card-body collapse" id="seo">--}}
+                        {{--@include('avored-ecommerce::product.card.seo')--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
                 <div class="card product-card mb-2 mt-2">
                     <a data-toggle="collapse" data-parent="#product-save-accordion"
@@ -66,24 +66,24 @@
                     </div>
                 </div>
 
-                @if($model->hasVariation())
+                {{--@if($model->hasVariation())--}}
 
-                    <div class="card product-card mb-2 mt-2">
-                        <a data-toggle="collapse" data-parent="#product-save-accordion"
-                           class="float-right" href="#attribute">
-                            <div class="card-header">
-                                Attribute
-                            </div>
-                        </a>
-                        <div class="card-body collapse" id="attribute">
-                            @include('avored-ecommerce::product.card.attribute')
-                        </div>
-                    </div>
+                    {{--<div class="card product-card mb-2 mt-2">--}}
+                        {{--<a data-toggle="collapse" data-parent="#product-save-accordion"--}}
+                           {{--class="float-right" href="#attribute">--}}
+                            {{--<div class="card-header">--}}
+                                {{--Attribute--}}
+                            {{--</div>--}}
+                        {{--</a>--}}
+                        {{--<div class="card-body collapse" id="attribute">--}}
+                            {{--@include('avored-ecommerce::product.card.attribute')--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
-                @endif
+                {{--@endif--}}
 
                 @foreach(Tabs::all('product') as $key => $tab)
-
+                    @if($tab->label != 'Related Product')
                     <div class="card product-card mb-2 mt-2">
                         <a data-toggle="collapse" data-parent="#product-save-accordion"
                            class="float-right" href="#{{ $key }}">
@@ -95,7 +95,7 @@
                             @include($tab->view)
                         </div>
                     </div>
-
+                    @endif
                 @endforeach
 
 
