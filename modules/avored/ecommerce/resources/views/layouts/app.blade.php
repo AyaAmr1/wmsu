@@ -68,6 +68,8 @@
        $("a:contains(' Configuration')").parent('li').hide();
        $("a:contains(' Themes')").parent('li').hide();
        $("a:contains(' Subscribe')").parent('li').hide();
+       $("a:contains(' Subscribe')").parent('li').hide();
+       $(".theme-permissions,.subscriber-permissions,.configuration-permissions,.order-permissions").parent('.col-md-3').hide();
     })
 </script>
 @stack('scripts')

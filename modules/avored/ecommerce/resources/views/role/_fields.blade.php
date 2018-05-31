@@ -10,7 +10,7 @@
 
         @if($permissionGroup->permissionList->count() > 0)
             <div class="col-md-3 mb-3">
-                <div class="card permission-card card-default">
+                <div class="card permission-card {{ str_slug($permissionGroup->label())}} card-default">
                     <div class="card-header">
 
                         <div class="form-check">
