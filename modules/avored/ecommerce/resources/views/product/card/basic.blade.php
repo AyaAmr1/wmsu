@@ -15,8 +15,6 @@
                                                                 ],
                                                 'options' => $categoryOptions,
                                                 'values' => $productCategories])
-
-
     </div>
 </div>
 
@@ -44,6 +42,7 @@
         </div>
     @endif
     <div class="col-6">
+
         @include('avored-ecommerce::forms.select',['name' => 'status','label' => 'Status', 'options' => ['1' => 'Enabled','0' => 'Disabled']])
     </div>
 </div>
@@ -52,6 +51,9 @@
 <div class="row">
     <div class="col-6">
         @include('avored-ecommerce::forms.text',['name' => 'qty','label' => 'Qty'])
+    </div>
+    <div class="col-6">
+        @include('avored-ecommerce::forms.text',['name' => 'damage','label' => 'damage'])
     </div>
     <div class="col-6">
         @include('avored-ecommerce::forms.select',['name' => 'in_stock','label' => 'In Stock', 'options' => ['1' => 'Enabled','0' => 'Disabled']])
