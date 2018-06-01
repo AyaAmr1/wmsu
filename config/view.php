@@ -14,7 +14,7 @@ return [
     */
 
     'paths' => [
-        resource_path('views'),
+        realpath(base_path('themes/avored/default/views')),
     ],
 
     /*
